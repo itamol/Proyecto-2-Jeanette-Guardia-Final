@@ -1,0 +1,24 @@
+.contacto-flex{
+    display: flex;
+    justify-content: space-around;
+}
+
+.contacto{
+    max-width: 600px;
+    margin: 0 auto;
+    padding-bottom: 120px;
+}
+
+.contacto h2{
+    padding-bottom: 40px;
+}
+
+.contacto-logo{
+    width: 70px;
+}
+
+@media (min-width: 1200px){
+    h2{
+        font-size: 32px;
+    }
+}

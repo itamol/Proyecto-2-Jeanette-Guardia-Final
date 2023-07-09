@@ -1,0 +1,33 @@
+header{
+    box-shadow: 0px 0px 5px rgb(26, 23, 23);
+    position: fixed;
+    width: 100%;
+    background-color: #ae9c8f;
+    
+}
+
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    margin: auto 30px;
+    align-items: center;
+    height: 90px;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.logo{
+    width: 100px;
+}
+
+.active{
+    background: #664024;
+    color: aliceblue;
+    padding: 0 7px;
+    border-radius: 15%;
+    transition: 0.3s;
+}

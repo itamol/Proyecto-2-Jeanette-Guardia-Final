@@ -1,0 +1,23 @@
+.experiencia{
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 120px;
+    
+}
+
+.experiencia-cont{
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #e5d2c4;
+    border-radius: 30px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+@media (min-width: 1200px){
+    h2{
+        font-size: 32px;
+    }
+}
