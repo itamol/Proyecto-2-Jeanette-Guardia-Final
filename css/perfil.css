@@ -1,18 +1,22 @@
 .perfil-img{
-    min-width: 50px;
-    max-width: 400px;
     border-radius: 50%;
     padding-bottom: 30px;
     cursor: pointer;
+    width: 100%;
 }
 
+.perfil-img img{
+    min-width: 50px;
+    max-width: 400px;
+    
+}
 
 .perfil{
-    padding-top: 120px;
-    padding-bottom: 120px;
-    margin: 0 40px;
+    padding: 120px 30px;
+    margin: 0 auto;
     text-align: center;
     max-width: 750px;
+    width: 100%;
 }
 
 .perfil-info {
